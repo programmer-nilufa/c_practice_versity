@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+   printf("Enter the Parallelogram land:");
+   int l;
+   scanf("%d",&l);
+   printf("Enter the Parallelogram height:");
+   int h;
+   scanf("%d",&h);
+   int area = l*h;
+   printf("The are of Parallelogram is: %d",area);
+   return 0;
+}
